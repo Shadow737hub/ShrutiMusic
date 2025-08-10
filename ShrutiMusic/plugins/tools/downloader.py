@@ -70,7 +70,7 @@ async def video_downloader(_, message: Message):
         await app.send_video(
             chat_id=message.chat.id,
             video=file_name,
-            caption=f"🎬 {data.get('title', 'Video')}\n\n✅ By @ShrutiBots",
+            caption=f"🎬 {data.get('title', 'Video')}\n\n✅ By @XDUPDATE",
             supports_streaming=True
         )
 
