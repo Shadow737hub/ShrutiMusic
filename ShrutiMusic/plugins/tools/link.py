@@ -8,8 +8,6 @@ from pyrogram.enums import ChatMemberStatus
 import asyncio
 from config import OWNER_ID
 
-SUDOERS = SPECIAL_ID
-
 
 @app.on_message(filters.command("leave") & SUDOERS)
 async def leave(_, message):
